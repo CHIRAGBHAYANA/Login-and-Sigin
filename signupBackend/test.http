@@ -1,8 +1,0 @@
-POST  http://localhost:3000/app/login
-Content-Type: application/json
-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTZjNjY5OTM0NDVkN2I1YWRhZjI5ZDQiLCJpYXQiOjE2MzQ0OTQ2NjR9.f_xSFnJJoynmO29l0S5Enn2a5MYqoVfbmvFhqWGehTs
-
-{
-    "email":"ayushgarag@gmail.com",
-    "password":"1234567"
-}
