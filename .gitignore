@@ -5,7 +5,7 @@
 /signupBackend/node_modules
 /.pnp
 .pnp.js
-/.env
+/signupBackend/.env
 # testing
 /coverage
 
