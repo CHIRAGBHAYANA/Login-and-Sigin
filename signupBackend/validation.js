@@ -1,10 +1,11 @@
+// joi is the most powerful schema description language and data validator for JavaScript.
 const Joi = require("@hapi/joi");
 
 const registrationValidation = (data) => {
   const schema = Joi.object({
-    fullName: Joi.string().min(6).required(),
-    username: Joi.string().min(6).required(),
-    email: Joi.string().min(6).required().email(),
+    fullName: Joi.string().required(),
+    username: Joi.string().required(),
+    email: Joi.string().required().email(),
     password: Joi.string().min(6).required(),
   });
   return schema.validate(data);
